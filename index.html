@@ -7,15 +7,15 @@
     <title>Welcome | Personal Portfolio</title>
   </head>
   <body>
-    <nav class="nav">
+    <nav class="nav" id="home">
       <div><p class="logo">Welcome</p></div>
 
       <ul class="menus">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
 
       <a
@@ -34,28 +34,34 @@
         <h1 id="h1">Web developer</h1>
 
         <div class="icons">
-          <a href="tel:+917900068136"
+          <a href="tel:+917900068136" target="_blank"
             ><img
               src="./images/telephone.svg"
               alt="phone call"
               height="40px"
               width="40px"
           /></a>
-          <a href="https://github.com/AnkushYadav11"
+          <a href="https://github.com/AnkushYadav11" target="_blank"
             ><img
               src="./images/github.svg"
               alt="github"
               height="40px"
               width="40px"
           /></a>
-          <a href="https://www.linkedin.com/in/ankush-yadav-12-/"
+          <a href="https://www.linkedin.com/in/ankush-yadav-12-/" target="_blank"
             ><img
               src="./images/linkedin.svg"
               alt="linkedin"
               height="40px"
               width="40px"
           /></a>
-          <!-- <a href=""><img src="./images/instagram.svg" alt="instagram"></a> -->
+          <a href="mailto:yadavankush1811@gmail.com" target="_blank"
+            ><img
+              src="./images/gmail.svg"
+              alt="gmail"
+              height="40px"
+              width="40px"
+          /></a>
         </div>
 
         <div>
@@ -80,73 +86,190 @@
       </div>
 
       <div class="right">
-        <div>
-          <img src="" alt="" />
+        <div class="img-border">
+          <img src="./images/profile.png" alt="profile image" class="profile" />
         </div>
       </div>
     </div>
 <!-- Services page -->
-    <div class="services">
+    <div class="services" id="skills">
       <div class="heading">
         <h1>Skills</h1>
       </div>
 
       <div class="grid">
-        <div>
+        <div id="html">
           <img src="./images/html.svg" alt="html Logo" id="logos">
           <h2 class="k2d" id="logos">HTML 5</h1>
         </div>
-        <div>
+        <div id="css">
           <img src="./images/css.svg" alt="CSS logo" id="logos">
           <h2 class="k2d" id="logos">CSS</h1>
         </div>
-        <div>
+        <div id="js">
           <img src="./images/js.svg" alt="Javascript logo" id="logos">
           <h2 class="k2d" id="logos">JavaScript</h1>
         </div>
-        <div>
+        <div id="ts">
           <img src="./images/ts.svg" alt="typescript logo" id="logos">
           <h2 class="k2d" id="logos">TypeScirpt</h1>
         </div>
-        <div>
+        <div id="java">
           <img src="./images/java.svg" alt="Java Logo" id="logos">
           <h2 class="k2d" id="logos">Java</h1>
         </div>
-        <div>
+        <div id="react">
           <img src="./images/react.svg" alt="React js" id="logos">
           <h2 class="k2d" id="logos">React.js</h1>
         </div>
-        <div>
+        <div id="node">
           <img src="./images/node.svg" alt="node js" id="logos">
           <h2 class="k2d" id="logos">Node.js</h1>
         </div>
-        <div>
+        <div id="express">
           <img src="./images/express.svg" alt="Express js" id="logos">
           <h2 class="k2d" id="logos">Express.js</h1>
         </div>
-        <div>
+        <div id="mongodb">
           <img src="./images/mongodb.svg" alt="mongodb" id="logos">
           <h2 class="k2d" id="logos">MongoDB</h1>
         </div>
-        
-        <div>
+        <div id="php">
           <img src="./images/php.svg" alt="php logo" id="logos" height="96px" width="96px">
           <h2 class="k2d" id="logos">PHP</h1>
         </div>
-
-        <div>
+        <div id="mysql">
           <img src="./images/mysql.svg" alt="mysql logo" id="logos" height="96px" width="96px">
           <h2 class="k2d" id="logos">MySql</h1>
         </div>
-        
-        <div>
+        <div id="git">
           <img src="./images/git.svg" alt="Git and github" id="logos" height="96px" width="96px">
           <h1 id="logos">Git & Github</h1>
         </div>
-        
       </div>
     </div>
+
+<!-- About me -->
+    <div class="about" id="about">
+      <div class="heading">
+        <h1>About Me</h1>
+      </div>
+
+      <div class="content">
+        <div class="left-cont">
+          <div class="img-border">
+            <img src="./images/profile.png" alt="profile image" class="profile">
+          </div>
+        </div>
+        
+        <div class="right-cont">
+          <p id="p"> I'm Ankush Yadav, a passionate entry-level Full Stack Developer from Mumbai, bridging Electronics & Telecommunication
+            engineering with modern web development. With a BE from Shree L.R. Tiwari College of Engineering (2021-2024, CGPA 6.37) 
+            and Diploma in Computer Engineering from Thakur Polytechnic (80%), my coursework in Java, Python, DBMS, Linux, and web 
+            technologies sparked my coding journey. As Software Development Intern at Static.inc Educare (Sep 2020-Apr 2021), 
+            I collaborated on Java/Python/Django projects through the full SDLC. I debugged applications, cutting bug-fix times by 10%,
+            and enhanced a travel website's UX by 5% using Git/GitHub—building expertise in Agile, version control, and team 
+            collaboration. My projects showcase end-to-end mastery. The E-Commerce Website 
+            (PHP, MySQL, JavaScript; GitHub: AnkushYadav11/E-Commerce) delivers authentication, role-based access, and CRUD for 
+            1,000+ records, with SQL optimizations slashing load times by 30%. The Hotel Management System (Java, MySQL, Swing; 
+            GitHub: AnkushYadav11/HotelManagement-System) handles 1,000 daily transactions via interactive JTable UIs, boosting 
+            query performance by 40%. Certified in Full Stack Development (SDAC Infotech, 2025) and Mega Hack 4.0 participant (2024),
+            I excel in Java, PHP, JavaScript, React.js, Node.js, Express.js, MySQL, MongoDB, HTML5/CSS3, Bootstrap, Tailwind CSS, OOP, 
+            REST APIs, MVC architecture, and Linux. Strong problem-solving, communication, and time management skills drive my work.
+            Ready for Software Developer roles, I'm eager to deliver scalable solutions for innovative teams. Connect via 
+            yadavankush1811@gmail.com, GitHub, or LinkedIn—let's create impactful applications together!
+          </p>
+          <a href="./images/AnkushYadav.pdf" download="Ankush_Yadav's_Cv.pdf" id="download">Download Cv</a>
+        </div>
+      </div>
+    </div>
+
+<!-- Projects -->
+    <div class="projects" id="projects">
+      <div class="heading">
+        <h1>Projects</h1>
+      </div>
+
+      <div class="project">
+        <div>
+          <img src="./images/projects/nikeclone.png" alt="nike clone website" height="350px" width="350px">
+          <p> <a href="https://github.com/AnkushYadav11/Nike-clone" target="_blank" id="link-project">Nike Clone</a><br>
+            It is a Nike Website Clone Created by using React.js. i this project i have covered the home page look of original nike website
+            During this project i have got hands on Experiences on React.js
+          </p>
+        </div>
+        <div>
+          <img src="./images/projects/appleclone.png" alt="apple clone" height="350px" width="350px">
+          <p> <a href="https://github.com/AnkushYadav11/apple_clone" target="_blank" id="link-project">Apple Clone</a><br>
+            This project is created in React.js. In this project i got hands on Experiences in react.js as well as state management in react.js 
+            also got a clear idea about how to handle video's in project.
+          </p>
+        </div>
+        <div>
+          <img src="./images/projects/ecommerce.png" alt="E-Commerce Website" height="350px" width="350px">
+          <p><a href="https://github.com/AnkushYadav11/E-Commerce" target="_blank" id="link-project">E-Commerce</a><br>
+            This project is created by using HTML,CSS MySQl,and Core PHP . In this project got hands on Experiences on front end technologies
+            to create website, also a deep knowleade about PHP.  
+          </p>
+        </div>
+        <div>
+          <img src="./images/projects/netflix.png" alt="NetFlix clone website" height="350px" width="350px">
+          <p><a href="https://github.com/AnkushYadav11/Netflix-clone" target="_blank" id="link-project">NetFlix Clone</a><br>
+            This project is created by using react.js in this project i got hands on Experiences on how to create a user frendly website,
+            and how to handle state's of components
+          </p>
+        </div>
+        <div>
+          <img src="./images/projects/project.png" alt="Project" height="350px" width="350px">
+          <p><a href="https://github.com/AnkushYadav11/Web" target="_blank" id="link-project">Real Estate</a><br>
+            This is a real Estate Webpage created by using Next.js. in this project i got hands on Experiences in Next.js 
+            and how to handle multiple components in Next.js. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact us -->
+
+    <div class="contacts" id="contact">
+      <div class="heading">
+        <h1>Contact Me</h1>
+      </div>
+
+      <div class="contact">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="number" id="phone"  placeholder="Phone Number">
+        <input type="text" id="services" placeholder="Services">
+        <input type="text" id="timeline" placeholder="Timeline">
+        <textarea name="text" rows="1" id="textarea" placeholder="Project Details..."></textarea>
+        <a href="#" id="download" class="send">Send</a>
+      </div>
+    </div>
+
     <!-- footer page -->
-    <footer></footer>
+     <footer class="footer">
+      <h1 class="h1">Welcome</h1>
+        
+      <ul class="ul">
+          <li><a id="footer-links" href="#home">Home</a></li>
+          <li><a id="footer-links" href="#skills">Skills</a></li>
+          <li><a id="footer-links" href="#about">About Me</a></li>
+          <li><a id="footer-links" href="#projects">Projects</a></li>
+          <li><a id="footer-links" href="#contact">Contact Me</a></li>
+        </ul>
+
+      <div class="footer-icons">
+        <div class="footer-ico">
+          <a href="tel:+917900068136" target="_blank"><img src="./images/telephone.svg" alt="phone" height="30px" width="30px"></a>
+          <a href="https://github.com/AnkushYadav11" target="_blank"><img src="./images/git.svg" alt="github" height="30px" width="30px"></a>
+          <a href="https://www.linkedin.com/in/ankush-yadav-12-/" target="_blank"><img src="./images/linkedin.svg" alt="linkedin" height="30px" width="30px"></a>
+          <a href="mailto:yadavankush1811@gmail.com" target="_blank"><img src="./images/gmail.svg" alt="gmail" height="30px" width="30px"></a>
+        </div>
+      </div>
+
+      <div class="div"></div>
+      <div><p class="k2d footers">Designed by @ankush_yadav</p></div>
+     </footer>
   </body>
 </html>
