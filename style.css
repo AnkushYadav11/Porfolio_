@@ -492,7 +492,7 @@
   margin-top: 50px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   * {
     width: auto;
   }
@@ -541,15 +541,16 @@
     display: grid;
     grid-template-columns: auto;
     margin-top: 10%;
+    width: auto;
   }
 
   #prj img{
     height: 450px;
-    width: 400px;
+    width: 300px;
   }
 
   #prj p{
-    width: 390px;
+    width: 300px;
   }
   /* this is contact's section */
   .contacts {
